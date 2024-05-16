@@ -3,9 +3,9 @@ function results()
     let id=document.getElementById("rollno").value
     let results=fetch(`http://localhost:3000/studentdata/${id}`).then(response=>response.json()).then(data=>
         {
-            temp=JSON.stringify(data)
+            
             document.getElementById("result").innerHTML=data.marks
-            console.log(temp.marks)
+           
         }
     ).catch(error => {
         // Handle errors
