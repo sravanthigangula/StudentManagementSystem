@@ -1,0 +1,29 @@
+{
+  "studentdata": [
+    {
+      "id": "1",
+      "name": "a",
+      "marks": "50"
+    },
+    {
+      "id": "2",
+      "name": "b",
+      "marks": "90"
+    },
+    {
+      "id": "3",
+      "name": "c",
+      "marks": "45"
+    },
+    {
+      "id": "4",
+      "name": "d",
+      "marks": "85"
+    },
+    {
+      "id": "5",
+      "name": "e",
+      "marks": "86"
+    }
+  ]
+}
